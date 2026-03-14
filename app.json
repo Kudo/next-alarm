@@ -2,7 +2,7 @@
   "expo": {
     "icon": "https://agent.expo.app/static/icon.png",
     "orientation": "default",
-    "scheme": "acme",
+    "scheme": "next-alarm",
     "userInterfaceStyle": "automatic",
     "web": {
       "output": "server"
@@ -26,14 +26,12 @@
       "bundleIdentifier": "dev.expo.kudo.nextalarm",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
-      }
+      },
+      "appleTeamId": "J35SUS5UFB"
     },
     "extra": {
-      "router": {},
-      "eas": {
-        "projectId": "b3127a15-b89d-43d2-82be-96875803a5e3"
-      }
+      "router": {}
     },
-    "slug": "seven-hour-alarm"
+    "slug": "next-alarm"
   }
 }
