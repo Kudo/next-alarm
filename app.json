@@ -20,7 +20,7 @@
       "expo-web-browser",
       "@bacons/apple-colors"
     ],
-    "name": "Next Alarm",
+    "name": "Next Alarm — Sleep Timer",
     "owner": "kudochien",
     "ios": {
       "bundleIdentifier": "dev.expo.kudo.nextalarm",
@@ -30,7 +30,10 @@
       "appleTeamId": "J35SUS5UFB"
     },
     "extra": {
-      "router": {}
+      "router": {},
+      "eas": {
+        "projectId": "eed3399e-d033-4c02-b8d2-f8142bddd5ca"
+      }
     },
     "slug": "next-alarm"
   }

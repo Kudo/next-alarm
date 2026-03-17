@@ -1,6 +1,6 @@
-import { ThemeProvider } from "@/components/theme-provider";
-import { Stack } from "expo-router";
-import * as AC from "@bacons/apple-colors";
+import { ThemeProvider } from '@/components/theme-provider';
+import { Stack } from 'expo-router';
+import * as AC from '@bacons/apple-colors';
 
 export default function Layout() {
   return (
@@ -9,9 +9,10 @@ export default function Layout() {
         screenOptions={{
           headerLargeTitle: true,
           headerTransparent: true,
-          headerBlurEffect: "systemChromeMaterial",
+          headerBlurEffect: 'systemChromeMaterial',
           headerShadowVisible: false,
           headerTitleStyle: { color: AC.label as any },
+          headerBackButtonDisplayMode: 'minimal',
         }}
       />
     </ThemeProvider>
